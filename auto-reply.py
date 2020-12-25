@@ -65,5 +65,5 @@ def create_auto_replier():
     reply_bot.read_messages()
 
 if __name__ == "__main__":
-    threading.Timer(1800, create_auto_replier).start()
+    threading.Timer(os.environ.get("RUNTIME"), create_auto_replier).start()
 
