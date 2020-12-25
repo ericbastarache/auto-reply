@@ -6,7 +6,8 @@ This simple script will allow you to automate replying to messages on LinkedIn b
 
 - Copy .env.example to .env (don't worry this is never committed to git!)
 
-`LINKEDIN_EMAIL` - This is your LinkedIn email address, required to log you into your account so the bot can access your messages
-`LINKEDIN_PASSWORD` - This is your LinkedIn password, self explanatory why this is needed
-`TEXT_TO_SEARCH` - This is the text string you want to search by in order to have the bot send an automated reply to the sender. The message is currently pre-filled but you can edit this and place it somewhere else (or create a collection of responses to use) to make it more customizable. 
+- `LINKEDIN_EMAIL` - This is your LinkedIn email address, required to log you into your account so the bot can access your messages
+- `LINKEDIN_PASSWORD` - This is your LinkedIn password, self explanatory why this is needed
+- `TEXT_TO_SEARCH` - This is the text string you want to search by in order to have the bot send an automated reply to the sender. The message is currently pre-filled but you can edit this and place it somewhere else (or create a collection of responses to use) to make it more customizable. 
+- `RUNTIME` - This controls how often the script runs. **Note**: Currently set to run every 30 minutes
 
